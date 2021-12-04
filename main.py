@@ -57,10 +57,12 @@ while play_again:
 	game()
 	reply = input("Do you want play again: \'y\' or \'n\'? ").lower()
 	if reply == 'n':
+		print("\nGood man, thank you for playing our game. \nWe welcome your feedback and comment to chinwej.obiageri@gmail.com. \n~Emmanuel.")
 		play_again = False
 	elif reply != 'y':
 		reply = input("Try again: Choose \'y\' or \'n\'? ").lower()
 		if reply == 'n':
+			print("\nGood man, thank you for playing our game. \nWe welcome your feedback and comment to chinwej.obiageri@gmail.com. \n~Emmanuel.")
 			play_again = False
 	if reply == 'y':
 		clear()
